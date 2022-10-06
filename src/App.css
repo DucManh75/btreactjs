@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.profile {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  border: 2px solid rgb(33, 177, 221); /* viền */
+  transition: all 1s ease;
+  margin-bottom: 60px;
+}
+.profile:hover {
+  transform: scale(1.1);
+  box-shadow: plum;
+} /* zoom */
+
+.name{
+ font-size: 18px;
+ font-weight: bold;
+ color: #350ee2;
+}
